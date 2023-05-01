@@ -10,7 +10,7 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}\\..\\bin\\clang\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}\\..\\bin\\clang\\vsdbg\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
                 "cwd": "${fileDirname}"
