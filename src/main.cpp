@@ -1,5 +1,5 @@
 #include <iostream>
-//doesn't want build on kali linux...
+//clang doesn't want build on kali linux...
 int main (int argc, char **argv) {
 	setlocale(0, "");
 	std::cout << "path to this program: " << argv[0] << "\n" << "args count: " << argc << "\nargs: ";
